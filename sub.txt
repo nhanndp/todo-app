@@ -1,3 +1,6 @@
 private int sub(int a, intb) {
+	if (a - b < integer.MIN){
+		throw new Exception();
+	}
 	return a - b;
 }
